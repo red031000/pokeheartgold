@@ -2683,7 +2683,7 @@
                                                                          72](CalcBoxMonPokeathlonPerformance,func) found in global pokemon.o
                                                                           73](_u32_getDigitN,func) found in global pokemon.o
                                                                          72](PokeathlonStatScoreToStars,func) found in global pokemon.o
-                                                                        71](Party_GetUnkSubSlot,func) found in global party.o
+                                                                        71](Party_GetMonAprijuiceModifiers,func) found in global party.o
                                                                         71](.rodata,section) found in local unk_0208B1AC.o
                                                                         71](SpriteSystem_ReplacePlttResObj,func) found in global sprite_system.o
                                                                          72](ReplacePlttResObjFromNarc,func) found in global unk_0200A090.o
@@ -3210,8 +3210,8 @@
                                                                       69](sub_020317F4,func) found in local unk_0203170C.o
                                                                        70](sub_02031774,func) found in global unk_0203170C.o
                                                                        70](sub_020317BC,func) found in global unk_0203170C.o
-                                                                     68](Save_SysInfo_GetField4C,func) found in global sav_system_info.o
-                                                                     68](Save_SysInfo_SetField4C,func) found in global sav_system_info.o
+                                                                     68](Save_SysInfo_GetDwcProfileId,func) found in global sav_system_info.o
+                                                                     68](Save_SysInfo_SetDwcProfileId,func) found in global sav_system_info.o
                                                                      68](.data,section) found in local overlay_70.o
                                                                      68](PrintUIntOnWindow,func) found in global message_printer.o
                                                                       69](ConvertUIntToDecimalString,func) found in global string_util.o
@@ -3753,8 +3753,8 @@
                                                                                    82](FieldSystem_StartBugContestTimer,func) found in global unk_02055418.o
                                                                                     83](sub_02055450,func) found in global unk_02055418.o
                                                                                      84](sub_02055508,func) found in global unk_02055418.o
-                                                                                      85](sub_02055670,func) found in global unk_02055418.o
-                                                                                       86](sub_02028E1C,func) found in global sav_system_info.o
+                                                                                      85](FieldSystem_HasPenalty,func) found in global unk_02055418.o
+                                                                                       86](Save_SysInfo_RTC_HasPenalty,func) found in global sav_system_info.o
                                                                                       85](ClearDailyFlags,func) found in global fieldmap.o
                                                                                       85](sub_0206759C,func) found in global unk_02066EDC.o
                                                                                        86](GetShininessOfBadgeI,func) found in global save_trainer_card.o
@@ -4584,7 +4584,7 @@
                                                                                     83](sub_02055478,func) found in global unk_02055418.o
                                                                                      84](GearPhoneRingManager_HandleTimeAdvance,func) found in global unk_02092BE8.o
                                                                                       85](GearPhoneRingManager_Reset,func) found in local unk_02092BE8.o
-                                                                                     84](Save_SysInfo_RTC_SubField34,func) found in global sav_system_info.o
+                                                                                     84](Save_SysInfo_RTC_DecrementPenalty,func) found in global sav_system_info.o
                                                                                      84](sub_020555B4,func) found in global unk_02055418.o
                                                                                       85](sub_02092E34,func) found in global unk_02092BE8.o
                                                                                        86](sub_02092E54,func) found in local unk_02092BE8.o
@@ -4671,10 +4671,10 @@
                                                                                   81](sub_0209316C,func) found in global unk_02092BE8.o
                                                                                   81](Save_Daycare_GetEggCycleCounter,func) found in global daycare.o
                                                                                   81](Save_Daycare_SetEggCycleCounter,func) found in global daycare.o
-                                                                                  81](sub_0206CCD8,func) found in local get_egg.o
+                                                                                  81](Daycare_GetEggCycleLength,func) found in local get_egg.o
                                                                                    82](Field_GetDay,func) found in global unk_02055418.o
                                                                                    82](Field_GetMonth,func) found in global unk_02055418.o
-                                                                                   82](_020FF490,object) found in local get_egg.o
+                                                                                   82](sEggCycleSpecialDates,object) found in local get_egg.o
                                                                                   81](GetEggCyclesToSubtract,func) found in local get_egg.o
                                                                                  80](Save_Daycare_Get,func) found in global daycare.o
                                                                                  80](NewFieldTransitionEnvironment,func) found in global unk_02055BF0.o
@@ -5215,7 +5215,7 @@
                                                                        70](CalcMonPokeathlonPerformance,func) found in global pokemon.o
                                                                        70](sub_0200D2A4,func) found in global sprite_system.o
                                                                        70](.data,section) found in local overlay_59.o
-                                                                     68](Party_SetUnkSubSlot,func) found in global party.o
+                                                                     68](Party_SetMonAprijuiceModifiers,func) found in global party.o
                                                                     67](BerryPots_Exit,func) found in global overlay_16_02201948.o
                                                                      68](ov17_02201BC0,func) found in global berry_pots_app.o
                                                                      68](ov16_02201A4C,func) found in local overlay_16_02201948.o
@@ -6135,7 +6135,7 @@
                                                                      68](PCStorage_SetBoxName,func) found in global pokemon_storage_system.o
                                                                      68](PCStorage_GetBoxWallpaper,func) found in global pokemon_storage_system.o
                                                                      68](PCStorage_SwapMonsInBoxByIndexPair,func) found in global pokemon_storage_system.o
-                                                                     68](Party_SafeCopyMonToSlot_ResetUnkSub,func) found in global party.o
+                                                                     68](Party_SafeCopyMonToSlot_ResetAprijuiceModifiers,func) found in global party.o
                                                                      68](PCStorage_PlaceMonInBoxByIndexPair,func) found in global pokemon_storage_system.o
                                                                      68](PCStorage_SetActiveBox,func) found in global pokemon_storage_system.o
                                                                     67](ov104_021E5B14,func) found in global overlay_104.o
@@ -7629,7 +7629,7 @@
                                                               61](.data,section) found in local overlay_87.o
                                                              60](WirelessTradeSelectMon_Exit,func) found in global overlay_65.o
                                                               61](.rodata,section) found in local overlay_65.o
-                                                              61](Party_ResetUnkSubSlot,func) found in global party.o
+                                                              61](Party_ResetMonAprijuiceModifiers,func) found in global party.o
                                                               61](sub_0207083C,func) found in global pokemon.o
                                                               61](sub_0208F658,func) found in global unk_0208F658.o
                                                                62](ov65_0221DE64,func) found in global overlay_65.o
@@ -8277,8 +8277,8 @@
                                                           57](ScrCmd_NatDexFlagAction,func) found in global scrcmd_c.o
                                                            58](Pokedex_SetNatDexFlag,func) found in global pokedex.o
                                                            58](PlayerProfile_SetNatDexFlag,func) found in global player_data.o
-                                                          57](ScrCmd_476,func) found in global scrcmd_c.o
-                                                           58](sub_0202A57C,func) found in global pokedex.o
+                                                          57](ScrCmd_EnablePokedexFormDetection,func) found in global scrcmd_c.o
+                                                           58](Pokedex_EnableFormDetection,func) found in global pokedex.o
                                                           57](ScrCmd_475,func) found in global scrcmd_c.o
                                                           57](ScrCmd_NPCTradeEnd,func) found in global scrcmd_c.o
                                                            58](NPCTradeApp_Delete,func) found in global npc_trade.o
@@ -17715,15 +17715,15 @@
   02028DC8 00000000 .text   $t	(sav_system_info.o)
   02028DD0 00000006 .text   Save_SysInfo_SetMysteryGiftActive	(sav_system_info.o)
   02028DD0 00000000 .text   $t	(sav_system_info.o)
-  02028DD8 00000004 .text   Save_SysInfo_GetField4C	(sav_system_info.o)
+  02028DD8 00000004 .text   Save_SysInfo_GetDwcProfileId	(sav_system_info.o)
   02028DD8 00000000 .text   $t	(sav_system_info.o)
-  02028DDC 0000000A .text   Save_SysInfo_SetField4C	(sav_system_info.o)
+  02028DDC 0000000A .text   Save_SysInfo_SetDwcProfileId	(sav_system_info.o)
   02028DDC 00000000 .text   $t	(sav_system_info.o)
   02028DE8 00000032 .text   Save_SysInfo_RTC_Init	(sav_system_info.o)
   02028DE8 00000000 .text   $t	(sav_system_info.o)
-  02028E1C 0000000E .text   sub_02028E1C	(sav_system_info.o)
+  02028E1C 0000000E .text   Save_SysInfo_RTC_HasPenalty	(sav_system_info.o)
   02028E1C 00000000 .text   $t	(sav_system_info.o)
-  02028E2C 0000001E .text   Save_SysInfo_RTC_SubField34	(sav_system_info.o)
+  02028E2C 0000001E .text   Save_SysInfo_RTC_DecrementPenalty	(sav_system_info.o)
   02028E2C 00000000 .text   $t	(sav_system_info.o)
   02028E4C 0000001E .text   SysInfoRTC_HandleContinueOnNewConsole	(sav_system_info.o)
   02028E4C 00000000 .text   $t	(sav_system_info.o)
@@ -18060,7 +18060,7 @@
   0202A55C 00000020 .text   Pokedex_GetNatDexFlag	(pokedex.o)
   0202A574 00000000 .text   $d	(pokedex.o)
   0202A57C 00000000 .text   $t	(pokedex.o)
-  0202A57C 00000020 .text   sub_0202A57C	(pokedex.o)
+  0202A57C 00000020 .text   Pokedex_EnableFormDetection	(pokedex.o)
   0202A598 00000000 .text   $d	(pokedex.o)
   0202A59C 00000000 .text   $t	(pokedex.o)
   0202A59C 00000040 .text   Pokedex_HasCaughtMonWithLanguage	(pokedex.o)
@@ -25135,7 +25135,7 @@
   02045424 00000000 .text   $d	(scrcmd_c.o)
   02045428 00000004 .text   ScrCmd_475	(scrcmd_c.o)
   02045428 00000000 .text   $t	(scrcmd_c.o)
-  0204542C 00000014 .text   ScrCmd_476	(scrcmd_c.o)
+  0204542C 00000014 .text   ScrCmd_EnablePokedexFormDetection	(scrcmd_c.o)
   0204542C 00000000 .text   $t	(scrcmd_c.o)
   02045440 00000064 .text   ScrCmd_NatDexFlagAction	(scrcmd_c.o)
   02045440 00000000 .text   $t	(scrcmd_c.o)
@@ -27195,7 +27195,7 @@
   02055640 00000000 .text   $t	(unk_02055418.o)
   0205565C 00000014 .text   FieldSystem_SetGameClearTime	(unk_02055418.o)
   0205565C 00000000 .text   $t	(unk_02055418.o)
-  02055670 0000000E .text   sub_02055670	(unk_02055418.o)
+  02055670 0000000E .text   FieldSystem_HasPenalty	(unk_02055418.o)
   02055670 00000000 .text   $t	(unk_02055418.o)
   02055680 00000026 .text   sub_02055680	(unk_02055418.o)
   02055680 00000000 .text   $t	(unk_02055418.o)
@@ -34817,7 +34817,7 @@
   0206CCC4 00000014 .text   Save_Daycare_CalcCompatibilityInternal	(get_egg.o)
   0206CCC4 00000000 .text   $t	(get_egg.o)
   0206CCD8 00000000 .text   $t	(get_egg.o)
-  0206CCD8 00000044 .text   sub_0206CCD8	(get_egg.o)
+  0206CCD8 00000044 .text   Daycare_GetEggCycleLength	(get_egg.o)
   0206CD18 00000000 .text   $d	(get_egg.o)
   0206CD1C 00000000 .text   $t	(get_egg.o)
   0206CD1C 00000128 .text   HandleDaycareStep	(get_egg.o)
@@ -35488,13 +35488,13 @@
   02074640 00000000 .text   $t	(party.o)
   02074644 0000002A .text   Party_GetMonByIndex	(party.o)
   02074644 00000000 .text   $t	(party.o)
-  02074670 0000004A .text   Party_GetUnkSubSlot	(party.o)
+  02074670 0000004A .text   Party_GetMonAprijuiceModifiers	(party.o)
   02074670 00000000 .text   $t	(party.o)
-  020746BC 0000004A .text   Party_SetUnkSubSlot	(party.o)
+  020746BC 0000004A .text   Party_SetMonAprijuiceModifiers	(party.o)
   020746BC 00000000 .text   $t	(party.o)
-  02074708 00000036 .text   Party_ResetUnkSubSlot	(party.o)
+  02074708 00000036 .text   Party_ResetMonAprijuiceModifiers	(party.o)
   02074708 00000000 .text   $t	(party.o)
-  02074740 0000007A .text   Party_SafeCopyMonToSlot_ResetUnkSub	(party.o)
+  02074740 0000007A .text   Party_SafeCopyMonToSlot_ResetAprijuiceModifiers	(party.o)
   02074740 00000000 .text   $t	(party.o)
   020747BC 000000FA .text   Party_SwapSlots	(party.o)
   020747BC 00000000 .text   $t	(party.o)
@@ -48250,7 +48250,7 @@
   020FF480 00000000 .rodata .rodata	(unk_0206B910.o)
   020FF480 00000010 .rodata _020FF480	(unk_0206B910.o)
   020FF490 00000000 .rodata .rodata	(get_egg.o)
-  020FF490 0000001E .rodata _020FF490	(get_egg.o)
+  020FF490 0000001E .rodata sEggCycleSpecialDates	(get_egg.o)
   020FF4AE 00000036 .rodata _020FF4AE	(get_egg.o)
   020FF4E4 00000000 .rodata .rodata	(pokemon.o)
   020FF4E4 00000008 .rodata sItemOdds	(pokemon.o)
@@ -215329,5 +215329,5 @@
   00000000 00000000 00000620 check.ITCM
   00000000 00000000 00000880 check.DTCM
 
-# Link start time: Tue Sep 02 00:16:31 2025
-# Link end time: Tue Sep 02 00:16:38 2025
+# Link start time: Sat Nov 01 04:59:39 2025
+# Link end time: Sat Nov 01 04:59:45 2025
